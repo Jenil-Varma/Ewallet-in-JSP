@@ -1,0 +1,182 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.imgcontainer h2{
+  color: white;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.box{
+  text-align: center;
+}
+
+.bg{
+	background-image: url("home.png");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: right;
+	background-size: 550px 600px; 
+}
+.topnav h1{
+	font-family: "Arial Rounded MT";
+	color: #5469FA;
+	font-size: 50px;
+	padding-left: 20px;
+}
+.topnav a {
+  color: #29292A;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 20px;
+  font-family: "Arial Rounded MT";
+}
+
+.f p{
+	font-family: "Arial Rounded MT";
+	font-size: 35px; 
+	padding-left: 20px;
+	color:  #2951AE;
+	margin:0px;
+	margin-top: 20px;
+}
+
+.w p{
+	font-family: "Arial Rounded MT";
+	font-size: 20px; 
+	padding-left: 15px;
+	color:  #909090;
+	margin: 0px;
+	margin-top: 3px;
+	padding-left: 20px;
+}
+
+.login{
+	padding-top: 30px;
+	padding-left: 40px;
+	margin:0px;
+}
+
+.login label{
+	margin:0px;
+	font-family: "Arial Rounded MT";
+	color: #343232;
+	font-size: 23px;
+	padding-top: 20px;
+}
+
+.login input{
+  margin:0px;
+  background: transparent;
+  border: 0 ;
+  color: #5469FA;
+  font-size: 15px;
+  height: 30px;
+}
+
+::placeholder{
+	color: #5469FA;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 12px 40px;
+  font-family: "Arial Rounded MT";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  font-family: "Arial Rounded MT";
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.info {
+  
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #5469FA;
+  color: white;
+}
+.about{
+	padding-left: 20px;
+}
+.about h1{
+	font-family: "Arial Rounded MT";
+	font-size: 40px;
+}
+
+.about p{
+    font-family: "cera pro";
+    font-style: normal;
+	font-size: 21px;
+	line-height: 1.5;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FCFCFC;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #6D6D6E;
+  display: block;
+  font-family: cera pro;
+}
+
+.sidebar a:hover {
+  color: #5469FA;
+}
+
+.main {
+  background-color: #FFFFFF;
+  margin-left: 220px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.sidebar h1{
+	font-family: "Arial Rounded MT";
+	color: #5469FA;
+	font-size: 30px;
+	padding-left: 20px;
+}
